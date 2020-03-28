@@ -35,7 +35,7 @@ model = Model(weights="imagenet")
 orig = cv2.imread(args["image"])
 resized = cv2.resize(orig, (224, 224))
 
-image = load_img(args["image"], target_size(224, 224))
+image = load_img(args["image"], target_size=(224, 224))
 image = img_to_array(image)
 image = np.expand_dims(image, axis=0)
 image = preprocess_input(image)
