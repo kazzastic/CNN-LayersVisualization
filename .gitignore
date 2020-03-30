@@ -125,5 +125,10 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
+
+
+NIC-CNN.model
+images
+
 # Pyre type checker
 .pyre/
